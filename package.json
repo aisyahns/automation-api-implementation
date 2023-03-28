@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "chai": "^4.3.7",
+    "chai-http": "^4.3.0",
+    "chai-json-schema": "^1.5.1",
+    "cross-env": "^7.0.3",
+    "dot-generator-mocha": "^1.3.8",
+    "dotenv": "^16.0.3",
+    "mocha": "^10.2.0",
+    "to-json-schema": "^0.2.5"
+  },
+  "name": "try-npm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "cross-env NODE_ENV=dev mocha --timeout 15000",
+    "test:dev": "cross-env NODE_ENV=dev mocha runner/regression.js --timeout 15000",
+    "report:dev": "cross-env NODE_ENV=dev mocha runner/regression.js --reporter mochawesome --timeout 15000"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "eslint": "^8.36.0",
+    "mochawesome": "^7.1.3"
+  }
+}
