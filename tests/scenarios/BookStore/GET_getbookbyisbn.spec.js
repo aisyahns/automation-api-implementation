@@ -3,7 +3,7 @@ const chai = require('chai')
 chai.use(require('chai-json-schema'))
 const pages = require('../../pages/BookStore/GET_getbookbyisbn.pages.js');
 const pagesGetBooks = require('../../pages/BookStore/GET_getbooks.pages');
-
+const config = require('../../utils/config')
 
 module.exports = () => {
     // Write your test here

@@ -5,6 +5,7 @@ const pages = require('../../pages/User/DELETE_deletebyuserid.pages.js');
 const pagesRegister = require('../../pages/User/POST_register.pages');
 const pagesLogin = require('../../pages/User/POST_login.pages');
 const helper = require('../../helper/general.helper')
+const config = require('../../utils/config')
 
 module.exports = () => {
     // Write your test here

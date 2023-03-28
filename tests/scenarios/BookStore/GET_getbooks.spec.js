@@ -2,7 +2,7 @@ const expect = require('chai').expect
 const chai = require('chai')
 chai.use(require('chai-json-schema'))
 const pages = require('../../pages/BookStore/GET_getbooks.pages.js');
-
+const config = require('../../utils/config')
 
 module.exports = () => {
     // Write your test here

@@ -4,8 +4,8 @@ class schema {
         {
             "success":
             {
-                "userId": "99741930-b909-40b7-87cb-7fe0499e3122",
-                "username": "automationName805",
+                "userId": "99741930-",
+                "username": "automation",
                 "books": [
                   {
                     "isbn": "9781449331818",

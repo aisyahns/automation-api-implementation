@@ -9,7 +9,7 @@ class schema {
             },
             "success":
             {
-                "userID": "98f3359b-c0b0-4046-a858-4fd8dc3c0d6a",
+                "userID": "98f3359b",
                 "username": "a1",
                 "books": []
             }

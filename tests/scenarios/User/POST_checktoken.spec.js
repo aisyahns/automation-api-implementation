@@ -2,6 +2,7 @@ const expect = require('chai').expect
 const chai = require('chai')
 chai.use(require('chai-json-schema'))
 const pages = require('../../pages/User/POST_checktoken.pages.js');
+const config = require('../../utils/config')
 
 // If you need data driven, just write driven keys (no need all keys), for example
 let data = [

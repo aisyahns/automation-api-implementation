@@ -5,6 +5,7 @@ const pages = require('../../pages/User/POST_register.pages.js');
 const pagesLogin = require('../../pages/User/POST_login.pages');
 const pagesDeleteUser = require('../../pages/User/DELETE_deletebyuserid.pages');
 const helper = require('../../helper/general.helper')
+const config = require('../../utils/config')
 
 // If you need data driven, just write driven keys (no need all keys), for example
 let data = [
